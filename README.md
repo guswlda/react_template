@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="#">
-    AICC_class
+    AICC React Template
   </a>
 </h1>
 
