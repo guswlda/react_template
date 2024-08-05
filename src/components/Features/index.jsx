@@ -14,7 +14,7 @@ const index = () => {
               <h2 className="text-3xl font-semibold tracking-tight text-center lg:text-5xl mb:text-3xl">
                 Easily Build{' '}
                 <span className="bg-gradient-to-r from-indigo-50 to-indigo-700 text-transparent bg-clip-text">
-                  Code User
+                  User Code
                 </span>
               </h2>
             </div>
