@@ -5,12 +5,19 @@ import { ShieldHalf } from 'lucide-react';
 import { PlugZap } from 'lucide-react';
 import { GlobeLock } from 'lucide-react';
 
-import user1 from '../assets/profile-pictures/user1.jpg';
-import user2 from '../assets/profile-pictures/user2.jpg';
-import user3 from '../assets/profile-pictures/user3.jpg';
-import user4 from '../assets/profile-pictures/user4.jpg';
-import user5 from '../assets/profile-pictures/user5.jpg';
-import user6 from '../assets/profile-pictures/user6.jpg';
+// import user1 from '../assets/profile-pictures/user1.jpg';
+// import user2 from '../assets/profile-pictures/user2.jpg';
+// import user3 from '../assets/profile-pictures/user3.jpg';
+// import user4 from '../assets/profile-pictures/user4.jpg';
+// import user5 from '../assets/profile-pictures/user5.jpg';
+// import user6 from '../assets/profile-pictures/user6.jpg';
+
+import user1 from '../assets/user1.png';
+import user2 from '../assets/user2.png';
+import user3 from '../assets/user3.png';
+import user4 from '../assets/user4.png';
+import user5 from '../assets/user5.png';
+import user6 from '../assets/user6.png';
 
 export const navItems = [
   { label: 'Home', to: '/' },
@@ -109,6 +116,7 @@ export const features = [
     text: '편리한 사용자 인터페이스',
     description:
       'Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.',
+    image: 'image1',
   },
   {
     icon: <Fingerprint />,
