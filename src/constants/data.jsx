@@ -175,6 +175,7 @@ export const pricingOptions = [
       'Web Analytics',
       'Private Mode',
     ],
+    link: 'free',
   },
   {
     title: 'Pro',
@@ -185,6 +186,7 @@ export const pricingOptions = [
       'Web Analytics (Advance)',
       'Private Mode',
     ],
+    link: 'pro',
   },
   {
     title: 'Enterprise',
@@ -195,6 +197,7 @@ export const pricingOptions = [
       'High Performance Network',
       'Private Mode',
     ],
+    link: 'enterprise',
   },
 ];
 

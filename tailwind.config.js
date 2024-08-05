@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      customFontEn: ['"IBM Plex Mon"', 'monospace'],
+      customFontEn: ['"IBM Plex Mono"', 'monospace'],
       customFontKr: ['"Noto Sans KR"', 'sans-serif'],
     },
     screens: {

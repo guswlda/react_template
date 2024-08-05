@@ -14,16 +14,16 @@ const HeroSection = () => {
           for Developers
         </span>
       </h1>
-      <p className="text-center text-neutral-400 max-w-4xl font-customFontKr text-base lg:text-lg  mb:text-sm">
-        국가는 전통문화의 계승·발전과 민족문화의 창달에 노력하여야 한다.
-        법률안에 이의가 있을 때에는 대통령은 제1항의 기간내에 이의서를 붙여
-        국회로 환부하고, 그 재의를 요구할 수 있다. 국회의 폐회중에도 또한 같다.
-        이 헌법중 공무원의 임기 또는 중임제한에 관한 규정은 이 헌법에 의하여 그
-        공무원이 최초로 선출 또는 임명된 때로부터 적용한다. 모든 국민은
-        인간으로서의 존엄과 가치를 가지며, 행복을 추구할 권리를 가진다. 국가는
-        개인이 가지는 불가침의 기본적 인권을 확인하고 이를 보장할 의무를 진다.
+      <p className="text-center text-neutral-400 max-w-4xl font-customFontKr lg:text-lg mb:text-sm">
+        대통령은 국무총리·국무위원·행정각부의 장 기타 법률이 정하는 공사의 직을
+        겸할 수 없다. 국회는 의원의 자격을 심사하며, 의원을 징계할 수 있다.
+        국무총리는 대통령을 보좌하며, 행정에 관하여 대통령의 명을 받아
+        행정각부를 통할한다.회계연도를 넘어 계속하여 지출할 필요가 있을 때에는
+        정부는 연한을 정하여 계속비로서 국회의 의결을 얻어야 한다. 국무회의는
+        정부의 권한에 속하는 중요한 정책을 심의한다.
       </p>
-      <div className="flex gap-4 ">
+
+      <div className="flex gap-4">
         {heroLinks.map((item, idx) => (
           <Link
             to={item.to}
@@ -38,7 +38,7 @@ const HeroSection = () => {
         ))}
       </div>
 
-      <div className="flex mt-10 gap-4 justify-center items-center flex-col md:flex-row">
+      <div className="flex mt-10 gap-4 justify-center flex-col md:flex-row items-center">
         <video autoPlay muted loop className="vid md:w-1/3">
           <source src={video1} />
         </video>

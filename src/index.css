@@ -4,8 +4,9 @@
 
 :root {
   --ff-kr: "Noto Sans KR", sans-serif;
-  --ff-en: "IBM plex MONO", monospace;
+  --ff-en: "IBM Plex Mono", monospace;
   color-scheme: dark;
+  /* color-scheme: light; */
 }
 
 .container{
