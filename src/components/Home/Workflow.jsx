@@ -9,7 +9,7 @@ const Workflow = () => {
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-tight font-customFontEn font-semibold">
         Accelerate Your{' '}
         <span className="bg-gradient-to-r from-indigo-200 to-indigo-800 text-transparent bg-clip-text">
-          Coding Workflow.
+          Coding Workflow
         </span>
       </h2>
 

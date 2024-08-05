@@ -18,7 +18,7 @@ const FeaturesSection = () => {
 
         <div className="flex flex-wrap mt-10 lg:mt-20">
           {features.map((item, idx) => (
-            <div key={idx} className="w-full lg:w-1/3 sm:w-1/2">
+            <div key={idx} className="flex w-full lg:w-1/3 sm:w-1/2">
               <div className="flex">
                 <div className="flex mx-6 h-10 w-10 p-2 bg-neutral-900 text-indigo-700 justify-center items-center rounded-full">
                   {item.icon}
